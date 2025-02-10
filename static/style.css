@@ -10,3 +10,14 @@
 .moving-gif {
     animation: moveSideToSide 2s infinite alternate ease-in-out;
 }
+
+
+.heading {
+    font-family: var(--font-santoshi);
+    font-weight: 1200;
+    font-size: xx-large;
+}
+
+.__variable_ba7a58 {
+    --font-satoshi: "__satoshi_ba7a58", "__satoshi_Fallback_ba7a58";
+}
