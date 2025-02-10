@@ -11,16 +11,21 @@
     animation: moveSideToSide 2s infinite alternate ease-in-out;
 }
 
+.russo-one-regular {
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
 
 .heading {
-    font-family: var(--font-santoshi);
+    font-family:"Russo One", serif;
     font-weight: 1200;
-    font-size: xx-large;
+    font-size: 3.5em;
 }
 
-.__variable_ba7a58 {
-    --font-satoshi: "__satoshi_ba7a58", "__satoshi_Fallback_ba7a58";
-}
+
 
 @keyframes snowfall {
     0% { transform: translateY(0); opacity: 1; }
@@ -37,3 +42,4 @@
     opacity: 0.8;
     animation: snowfall 5s linear infinite;
 }
+
