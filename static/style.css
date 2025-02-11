@@ -5,7 +5,10 @@
   overflow: hidden;
 }
 
-
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
 
 .moving-gif {
     animation: moveSideToSide 2s infinite alternate ease-in-out;
