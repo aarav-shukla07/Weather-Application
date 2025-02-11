@@ -61,7 +61,7 @@
                     <h1>What's-Weather!!</h1>
                 </div>
                 <p>
-                <h4>Get the weather forecast<br> for any city in the world</h4>
+                <h4 style="color:blanchedalmond;">Your ultimate <br> weather companion</h4>
                 </p>
             </center>
 
@@ -71,15 +71,21 @@
                         <img src="{{ url_for('static', filename = 'gif2.gif') }}" alt="weather" class="moving-gif">
                     </div>
                 </div>
-
-                <div class="col-md-8" style="padding-left: 400px;">
-                    <p>
-                        <img src="{{ url_for('static', filename = 'intro.png')}}" alt="intro" class="logo">
-                    </p>
+                <div class="col-md-6">
+                    <div class="img-container">
+                        <!-- <img src="{{ url_for('static', filename = 'undraw_weather_7n28.svg') }}" alt="weather" class="weather-img"> -->
+                    </div>
                 </div>
+                
             </div>
 
         </div>
+    </div>
+    <div class="clouds">
+        <img src="{{url_for('static', filename = 'cloud1.png')}}" style="--i:1">
+        <img src="{{url_for('static', filename = 'cloud2.png')}}" style="--i:2">
+        <img src="{{url_for('static', filename = 'cloud3.png')}}" style="--i:3">
+        <img src="{{url_for('static', filename = 'cloud4.png')}}" style="--i:4">
     </div>
 
     <!-- Bootstrap Script -->

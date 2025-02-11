@@ -1,3 +1,9 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
 .heading {
     color: white;
 }
@@ -14,7 +20,7 @@
     top: 0; /* Start at the top */
     left: -100px; /* Start off-screen */
     transform: translateY(-50%);
-    animation: movePlane 2s linear forwards; /* Change to 'forwards' to keep final state */
+    animation: movePlane 4s linear forwards; /* Change to 'forwards' to keep final state */
 }
 
 @keyframes movePlane {
@@ -22,6 +28,17 @@
         top: 0;
         left: -100px;
         opacity: 1; /* Fully visible at start */
+    }
+    50%{
+        top: 50%; /* Move to middle */
+        left: 50%; /* Move to center */
+        opacity: 1; /* Half visible */
+    }
+    90% {
+        top: 100%; /* Move to bottom */
+        left: 100%; /* Move to right */
+        opacity: 0; /* Make it disappear */
+        transform: translateY(-50%) translateX(-50%);
     }
     100% {
         top: 100%; /* Move to bottom */

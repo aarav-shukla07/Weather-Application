@@ -57,7 +57,7 @@
         <nav class="navbar bg-transparent">
             <div class="container-fluid" style="justify-content: center;">
               <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2" type="search" placeholder="Enter city for details" aria-label="Search">
                 <button class="btn btn-success" type="submit">Search</button>
               </form>
             </div>
@@ -68,9 +68,10 @@
                 <!-- First Card -->
                 <div class="col-md-3">
                     <div class="card">
+                        <img src="{{url_for('static', filename = 'kanpur.gif')}}" class="card-img-top" alt="..." >
                         <div class="card-body">
-                            <h5 class="card-title">Kanpur</h5>
-                            <p class="card-text">This is the first card.</p>
+                            <h5 class="card-title text-bg-info">Kanpur</h5>
+                            <p class="card-text">There is good sunshine in Kanpur. The temperature is around 27 degree celsius.</p>
                         </div>
                     </div>
                 </div>
@@ -78,8 +79,9 @@
                 <div class="col-md-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Mumbai</h5>
-                            <p class="card-text">This is the second card.</p>
+                            <img src="{{url_for('static', filename = 'mumbai.gif')}}" class="card-img-top" alt="...">
+                            <h5 class="card-title text-bg-info">Mumbai</h5>
+                            <p class="card-text">The weather in Mumbai is quite hot. The temperature is around 32 degree celsius.</p>
                         </div>
                     </div>
                 </div>
@@ -87,8 +89,9 @@
                 <div class="col-md-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">New Delhi</h5>
-                            <p class="card-text">This is the third card.</p>
+                            <img src="{{url_for('static', filename = 'delhi.gif')}}" class="card-img-top" alt="..." height="304.4px"> 
+                            <h5 class="card-title text-bg-info">New Delhi</h5>
+                            <p class="card-text">The weather in New Delhi is quite hot. The temperature is around 30 degree celsius.</p>
                         </div>
                     </div>
                 </div>
@@ -96,8 +99,9 @@
                 <div class="col-md-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Lucknow</h5>
-                            <p class="card-text">This is the fourth card.</p>
+                            <img src="{{url_for('static', filename = 'kanpur.gif')}}" class="card-img-top" alt="...">
+                            <h5 class="card-title text-bg-info">Lucknow</h5>
+                            <p class="card-text">There is hazy sunshine in Lucknow. The temperaature is around 28 degree celsius.</p>
                         </div>
                     </div>
                 </div>
