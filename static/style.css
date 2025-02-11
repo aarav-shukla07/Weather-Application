@@ -19,12 +19,24 @@
   
   
 
-.heading {
-    font-family:"Russo One", serif;
-    font-weight: 1200;
-    font-size: 3.5em;
-}
-
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color:white;
+    animation: slideIn 2s ease-out forwards;
+  }
+  
 
 
 @keyframes snowfall {
